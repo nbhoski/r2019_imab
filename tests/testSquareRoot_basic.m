@@ -1,10 +1,11 @@
 classdef testSquareRoot_basic < matlab.unittest.TestCase
    
-%     methods (TestClassSetup)
-%         function addTestContentToPath(~)
-%             addpath(fullfile(getenv('WORKSPACE'),'source'));
-%         end
-%     end       
+    methods (TestClassSetup)
+        function addTestContentToPath(~)
+            disp(getenv('WORKSPACE'));
+            addpath(fullfile(getenv('WORKSPACE'),'source'));
+        end
+    end       
     
     
     methods (Test)
