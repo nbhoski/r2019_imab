@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" name="testCalc" skipped="0" tests="2" time="0.24895">
+    <testcase classname="testCalc" name="testSquare" time="0.23885"/>
+    <testcase classname="testCalc" name="testMultiplication" time="0.010104"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="testModelSim" skipped="0" tests="1" time="48.4056">
+    <testcase classname="testModelSim" name="testSquare" time="48.4056"/>
+  </testsuite>
+</testsuites>
